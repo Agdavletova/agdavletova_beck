@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\agdavletova_beck.props" />
+</Project>
