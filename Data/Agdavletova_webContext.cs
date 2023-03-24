@@ -11,6 +11,7 @@ namespace agdavletova_beck.Data
         public Agdavletova_webContext(DbContextOptions<Agdavletova_webContext> options)
             : base(options)
         {
+            Database.EnsureCreated(); //создает базу данных
         }
 
         public DbSet<Vacancy> Vacancy { get; set; }
